@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.source = {
      # Replace '1.0.4' with the actual tag corresponding to this version.
      :http => 'https://github.com/roshkadev/michi-sdk-kmp/releases/download/1.0.0/MichiSDK.xcframework.zip', # UPDATE this URL post-release creation.
-     :sha256 => '397c95992b9367f384cacc44b62d1e67a572cae1340fc6549260c55378e7ff2b' # UPDATE this with the calculated checksum.
+     :sha256 => '42e5b83c04527057e482d1324351bd4241b3841b4d87211f824f80fa3a31f996' # UPDATE this with the calculated checksum.
   }
   # --- Platform ---
   spec.ios.deployment_target = '12.0'
