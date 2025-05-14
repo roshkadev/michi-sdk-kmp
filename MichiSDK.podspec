@@ -14,8 +14,8 @@ Pod::Spec.new do |spec|
   # This section defines the remote location of the XCFramework zip archive
   spec.source = {
      # Replace '1.0.4' with the actual tag corresponding to this version.
-     :http => '', # UPDATE this URL post-release creation.
-     :sha256 => '' # UPDATE this with the calculated checksum.
+     :http => 'https://github.com/roshkadev/michi-sdk-kmp/releases/download/1.0.0/MichiSDK.xcframework.zip', # UPDATE this URL post-release creation.
+     :sha256 => '397c95992b9367f384cacc44b62d1e67a572cae1340fc6549260c55378e7ff2b' # UPDATE this with the calculated checksum.
   }
   # --- Platform ---
   spec.ios.deployment_target = '12.0'
