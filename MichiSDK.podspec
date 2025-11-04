@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'MichiSDK'
-  spec.version      = '1.0.1024'
+  spec.version      = '1.0.1000'
   spec.summary      = 'MichiSDK: Multiplatform module for 2FA, user management, and secure operations.'
   spec.homepage     = 'https://github.com/roshkadev/michi-sdk-kmp' # Use the public HTTPS URL here
   spec.license      = { :type => 'Proprietary', :text => 'Copyright (c) 2025 Roshka. All rights reserved.' }
@@ -11,8 +11,8 @@ Pod::Spec.new do |spec|
   # --- Source ---
   # This section defines the remote location of the XCFramework zip archive
   spec.source = {
-     :http => 'https://github.com/roshkadev/michi-sdk-kmp/releases/download/1.0.1024/MichiSDK.xcframework.zip', 
-     :sha256 => 'dabe79f2e4844b87294a2fb039ee4f81be56608fe1837894466041d7ab4eaf8c' 
+     :http => 'https://github.com/roshkadev/michi-sdk-kmp/releases/download/1.0.1000/MichiSDK.xcframework.zip', 
+     :sha256 => '021a4515f7dba00a3364ecaab2ea19fa6c10bb8bdb9c83280babd1a8ad45bace' 
   }
   # --- Platform ---
   spec.ios.deployment_target = '12.0'
